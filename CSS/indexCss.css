@@ -33,7 +33,7 @@ body {
 }
 
 #techItLogo {
-    max-width: 120px;
+    max-width: 100px;
 }
 
 #carouselExampleCaptions {
@@ -47,4 +47,14 @@ body {
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.footerIcon {
+    font-size: 2rem;
+    transition: all .3s;
+}
+
+.footerIcon:hover {
+    scale: 1.5;
+    opacity: .7;
 }
