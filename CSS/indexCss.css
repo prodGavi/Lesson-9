@@ -1,0 +1,50 @@
+@keyframes color {
+    0% {
+        background: #336bcc5b;
+    }
+
+    20% {
+        background: #33adcc5b;
+    }
+
+    40% {
+        background: #33cc8a5b;
+    }
+
+    60% {
+        background: #032ebd61;
+    }
+
+    80% {
+        background: #a54ade5b;
+    }
+
+    100% {
+        background: #33CCCC5b;
+    }
+}
+
+body {
+    background: #336bcc5b;
+    /* Fallback */
+    animation: color 9s infinite linear;
+    /* text-align: center; */
+    /*     padding: 2em; */
+}
+
+#techItLogo {
+    max-width: 120px;
+}
+
+#carouselExampleCaptions {
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.carouselCap {
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
